@@ -1,0 +1,7 @@
+# 作用：对代码做统一的风格，缩进、
+root = true; #告诉editorconfig插件，这是根文件不用继续往上找
+[*.{js,jsx,ts,tsx,vue}]
+indent_style = space  #缩进的风格
+indent_size = 2   #缩进的字符数
+trim_trailing_whitespace = true
+insert_final_newline = true  #最后插进空行
