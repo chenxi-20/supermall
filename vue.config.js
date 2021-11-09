@@ -1,5 +1,5 @@
 //导出
-module.export = {
+module.exports = {
   configureWebpack: {  // 表示准备配置config
     resolve: {         // 解决路径相关的东西
         alias: {
